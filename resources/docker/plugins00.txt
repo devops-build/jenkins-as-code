@@ -3,7 +3,10 @@ command-launcher
 configuration-as-code
 configuration-as-code-support
 uno-choice
+github-oauth
 workflow-cps-global-lib
+slack
+github
 throttle-concurrents
 ansicolor
 mask-passwords
@@ -32,6 +35,7 @@ git
 github-api
 github-branch-source
 handlebars
+hashicorp-vault-plugin
 icon-shim
 jackson2-api
 javadoc
@@ -83,8 +87,3 @@ workflow-scm-step
 workflow-step-api
 workflow-support
 ws-cleanup
-kubernetes
-delivery-pipeline-plugin
-display-console-output
-collapsing-console-sections
-localization-zh-cn
