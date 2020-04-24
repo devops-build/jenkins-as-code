@@ -138,8 +138,8 @@ credentials:
 
 unclassified:
   location:
-    url: "http://192.168.99.100:30001/"
-    adminAddress: "admin@devtail.io"
+    url: "http://172.16.0.100:8080/"
+    adminAddress: "sldevsir@126.com"
 
   globalLibraries:
     libraries:
@@ -156,10 +156,10 @@ unclassified:
       - cssUrl: 
           url: "https://fishi.devtail.io/content-images/jenkins-devtail-theme.css"
 
-  slackNotifier:
-    teamDomain: "devtail"
-    baseUrl: "https://devtail.slack.com/services/hooks/jenkins-ci/"
-    tokenCredentialId: "slack-token"
+  # slackNotifier:
+  #   teamDomain: "devtail"
+  #   baseUrl: "https://devtail.slack.com/services/hooks/jenkins-ci/"
+  #   tokenCredentialId: "slack-token"
 
   githubpluginconfig:
     configs:

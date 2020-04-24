@@ -19,13 +19,13 @@ node('master') {
     load('resources/config/groovy/timezone.groovy')
   }
 
-  stage('Deploy Agent Networks') {
+/*   stage('Deploy Agent Networks') {
     ansiColor('xterm') {
       sh('ln -sfn /var/jenkins_home/agent-bootstrapping-terraform-config/aws-agent-network.backend.config resources/terraform/aws/agent-network/')
       sh('ln -sfn /var/jenkins_home/agent-bootstrapping-terraform-config/aws-agent-network.tfvars resources/terraform/aws/agent-network/terraform.tfvars')
       sh('cd resources/terraform/ && make deploy-agent-network')
     }
-  }
+  } */
 
   stage('Job Seeding') {
     jobDsl(targets: 'resources/jobDSL/*.groovy', sandbox: false)
