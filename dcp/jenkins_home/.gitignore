@@ -14,3 +14,12 @@ war
 jobs
 workspace
 
+*.xml
+*.log
+.lastStarted
+identity.key.enc
+plugins.txt
+secret.key
+secret.key.not-so-secret
+jenkins.install.InstallUtil.lastExecVersion
+jenkins.install.UpgradeWizard.state
