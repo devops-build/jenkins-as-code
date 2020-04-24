@@ -22,7 +22,7 @@ String clientID = System.getenv()['GITHUB_OAUTH_CLIENT_ID'] // TODO: get from cr
 String clientSecret = System.getenv()['GITHUB_OAUTH_CLIENT_SECRET'] // TODO: get from credential store
 
 SecurityRealm github_realm = new GithubSecurityRealm(githubWebUri, githubApiUri, clientID, clientSecret, oauthScopes)
-Jenkins.instance.setSecurityRealm(github_realm)
+// Jenkins.instance.setSecurityRealm(github_realm)
 
 // Create global authorization matrix
 def strategy = new GlobalMatrixAuthorizationStrategy()
@@ -34,5 +34,5 @@ strategy.add(Jenkins.ADMINISTER, "fishi0x01")
 strategy.add(Jenkins.ADMINISTER, "devtail*Admin")
 
 // wrap up
-Jenkins.instance.setAuthorizationStrategy(strategy)
-Jenkins.instance.save()
+// Jenkins.instance.setAuthorizationStrategy(strategy)
+// Jenkins.instance.save()
