@@ -17,7 +17,8 @@ spec:
       terminationGracePeriodSeconds: 10
       containers:
       - name: jenkins
-        image: quay.io/devtail/jenkins-as-code:master
+        # image: quay.io/devtail/jenkins-as-code:master
+        image: registry.cn-shenzhen.aliyuncs.com/infrastlabs/jenkins-casc:latest
         imagePullPolicy: Always
         env:
         - name: DEPLOY_TS
