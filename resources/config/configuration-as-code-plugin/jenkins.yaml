@@ -22,13 +22,13 @@ jenkins:
         - "Overall/Administer:devtail*Admin"
         - "Overall/Administer:admin"
 
-  securityRealm:
-    github:
-      githubWebUri: "https://github.com"
-      githubApiUri: "https://api.github.com"
-      clientID: "${jenkins-tokens/github-oauth-client-id}"
-      clientSecret: "${jenkins-tokens/github-oauth-client-secret}"
-      oauthScopes: "read:org,user:email"
+  # securityRealm:
+  #   github:
+  #     githubWebUri: "https://github.com"
+  #     githubApiUri: "https://api.github.com"
+  #     clientID: "${jenkins-tokens/github-oauth-client-id}"
+  #     clientSecret: "${jenkins-tokens/github-oauth-client-secret}"
+  #     oauthScopes: "read:org,user:email"
 
   nodes:
     - permanent:
