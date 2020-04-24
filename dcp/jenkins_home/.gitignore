@@ -23,3 +23,5 @@ secret.key
 secret.key.not-so-secret
 jenkins.install.InstallUtil.lastExecVersion
 jenkins.install.UpgradeWizard.state
+
+!scriptApproval.xml
