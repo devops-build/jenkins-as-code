@@ -64,7 +64,7 @@ plain-credentials
 resource-disposer
 role-strategy
 scm-api
-script-security
+script-security:1.71
 ssh-credentials
 ssh-slaves
 slave-setup
