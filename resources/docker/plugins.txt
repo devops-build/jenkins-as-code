@@ -1,6 +1,6 @@
 jdk-tool
 command-launcher
-configuration-as-code
+configuration-as-code:1.36
 configuration-as-code-support
 uno-choice
 workflow-cps-global-lib
@@ -83,7 +83,7 @@ workflow-scm-step
 workflow-step-api
 workflow-support
 ws-cleanup
-kubernetes
+kubernetes:1.24.1
 delivery-pipeline-plugin
 display-console-output
 collapsing-console-sections
