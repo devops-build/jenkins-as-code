@@ -9,12 +9,12 @@
  * tested with github-oauth:0.29
  */
 
-import hudson.security.SecurityRealm
+/* import hudson.security.SecurityRealm
 import org.jenkinsci.plugins.GithubSecurityRealm
 import jenkins.model.*
-import hudson.security.*
+import hudson.security.* */
 
-// Setup OAUTH Realm
+/* // Setup OAUTH Realm
 String githubWebUri = GithubSecurityRealm.DEFAULT_WEB_URI
 String githubApiUri = GithubSecurityRealm.DEFAULT_API_URI
 String oauthScopes = 'read:org,user:email' //GithubSecurityRealm.DEFAULT_OAUTH_SCOPES
@@ -35,4 +35,4 @@ strategy.add(Jenkins.ADMINISTER, "devtail*Admin")
 
 // wrap up
 // Jenkins.instance.setAuthorizationStrategy(strategy)
-// Jenkins.instance.save()
+// Jenkins.instance.save() */
