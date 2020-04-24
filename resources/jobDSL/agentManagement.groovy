@@ -17,7 +17,7 @@ pipelineJob("Admin/AWSAgentBootstrap") {
             scm {
                 git {
                     remote {
-                        github("devtail/jenkins-as-code", "ssh")
+                        github("devops-build/jenkins-as-code", "ssh")
                         credentials("deploy-key-shared-library")
                     }
 
@@ -49,7 +49,7 @@ pipelineJob("Admin/AWSAgentDestroy") {
             scm {
                 git {
                     remote {
-                        github("devtail/jenkins-as-code", "ssh")
+                        github("devops-build/jenkins-as-code", "ssh")
                         credentials("deploy-key-shared-library")
                     }
 
