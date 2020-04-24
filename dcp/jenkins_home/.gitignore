@@ -1,0 +1,16 @@
+.cache
+.groovy
+.java
+init.groovy.d
+dsl
+logs
+users
+nodes
+plugins
+secrets
+userContent
+workflow-libs
+war
+jobs
+workspace
+
