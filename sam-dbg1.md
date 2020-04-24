@@ -1,3 +1,21 @@
+# sam-dbg1
+
+- mv _ex: aws-terraform, helm
+- dcp
+- Dockerfile-sam: k-spe/dvp-jenkins:v204.6
+- plugins: zh, kube, delivery-pipeline_task, display-console, collapsing-console
+
+- scriptapproval.xml
+
+```xml
+<approvedSignatures>
+    <string>method hudson.model.Computer countBusy</string>
+    <string>method hudson.model.Computer getNode</string>
+    <string>method hudson.model.Node getLabelString</string>
+    <string>method jenkins.model.Jenkins getComputers</string>
+    <string>staticMethod jenkins.model.Jenkins getInstance</string> <!-- exist -->
+</approvedSignatures>
+```
 
 ```bash
 resources/helm/
