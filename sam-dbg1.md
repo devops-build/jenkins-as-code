@@ -2,7 +2,7 @@
 
 - mv _ex: aws-terraform, helm
 - dcp
-- Dockerfile-sam: k-spe/dvp-jenkins:v204.6
+- Dockerfile-sam: v204.6-openj9 ##from: k-spe/dvp-jenkins:v204.6
 - plugins: zh, kube, delivery-pipeline_task, display-console, collapsing-console
 
 - scriptapproval.xml

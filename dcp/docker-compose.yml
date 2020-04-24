@@ -3,7 +3,7 @@ services:
   jenkins-casc:
     container_name: jenkins-casc
     restart: always
-    image: registry.cn-shenzhen.aliyuncs.com/infrastlabs/jenkins-casc:latest
+    image: registry.cn-shenzhen.aliyuncs.com/infrastlabs/jenkins-casc:v204.6-openj9 #latest ##org
     # command: xx
     network_mode: "host"
     # ports:
