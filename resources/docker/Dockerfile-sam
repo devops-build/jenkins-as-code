@@ -1,5 +1,7 @@
 # FROM jenkins/jenkins:2.204.1
-FROM registry.cn-shenzhen.aliyuncs.com/k-spe/dvp-jenkins:v204.6
+#FROM registry.cn-shenzhen.aliyuncs.com/k-spe/dvp-jenkins:v204.6
+#org-j9-020, test k8s_conn_err: bad_record_mac
+FROM registry.cn-shenzhen.aliyuncs.com/k-spe/dvp-jenkins:v204.6-j9-020
 MAINTAINER sam <devops@pcitech.com>
 
 # Delay for CasC + disable install wizard
