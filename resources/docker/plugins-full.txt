@@ -152,7 +152,3 @@ weblogic-deployer-plugin.jpi
 websphere-deployer.jpi
 xcode-plugin.jpi
 xshell.jpi
-
-uploaded1694551675731483451.jpi
-uploaded1895024145033552175.jpi
-uploaded6617396191356332595.jpi
