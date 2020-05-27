@@ -1,6 +1,6 @@
 # FROM jenkins/jenkins:2.204.1
-#FROM registry.cn-shenzhen.aliyuncs.com/k-spe/dvp-jenkins:v204.6
-#org-j9-020, test k8s_conn_err: bad_record_mac
+#FROM registry.cn-shenzhen.aliyuncs.com/k-spe/dvp-jenkins:v204.6 #k8s_conn_err: bad_record_mac
+#org-j9-020, test OK
 FROM registry.cn-shenzhen.aliyuncs.com/k-spe/dvp-jenkins:v204.6-j9-020-tzone8
 MAINTAINER sam <devops@pcitech.com>
 
