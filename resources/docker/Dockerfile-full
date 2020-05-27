@@ -1,3 +1,4 @@
+    FROM docker:17.12.1-ce as src
 # FROM jenkins/jenkins:2.204.1
 FROM registry.cn-shenzhen.aliyuncs.com/k-spe/dvp-jenkins:v204.6-j9-020-tzone8
 MAINTAINER sam <devops@pcitech.com>
@@ -9,6 +10,10 @@ ENV JAVA_OPTS="-Dio.jenkins.plugins.casc.ConfigurationAsCode.initialDelay=9000 -
 ENV SECRETS="/var/jenkins_home/"
 
 USER root
+COPY --from=src /usr/local/bin/docker usr/local/bin/docker
+
+#libltdl: docker use.
+RUN apk add libltdl subversion make
 
 # Add minimum jenkins setup
 ADD init.groovy.d /usr/share/jenkins/ref/init.groovy.d
