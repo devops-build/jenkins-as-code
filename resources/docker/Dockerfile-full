@@ -21,6 +21,6 @@ ADD dsl /usr/share/jenkins/ref/dsl
 COPY scriptApproval.xml /var/jenkins_home/scriptApproval.xml
 
 # Install plugins
-COPY plugins-full.txt /usr/share/jenkins/ref/plugins.txt
+COPY plugins-full-genClean.txt /usr/share/jenkins/ref/plugins.txt
 RUN /usr/local/bin/install-plugins.sh < /usr/share/jenkins/ref/plugins.txt
 
