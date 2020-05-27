@@ -152,3 +152,5 @@ weblogic-deployer-plugin
 websphere-deployer
 xcode-plugin
 xshell
+xml-job-to-job-dsl
+multibranch-scan-webhook-trigger

@@ -88,3 +88,5 @@ delivery-pipeline-plugin
 display-console-output
 collapsing-console-sections
 localization-zh-cn
+xml-job-to-job-dsl
+multibranch-scan-webhook-trigger
